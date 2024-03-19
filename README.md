@@ -1,4 +1,5 @@
-![logo](https://github.com/ArthurGuti/frontend/assets/131212175/64ef8eee-27ee-4e55-872d-039e8626a51c)
+![Pyth](https://github.com/ArthurGuti/IA-Python/assets/131212175/1cf52434-dbf4-4e1a-85e1-8f53b8a25e53)
+
 #  Machine Learning in Python - IA 
 ## 💻  Built to learn more about: Phyton, AI and another database analysis project.
 
@@ -14,55 +15,49 @@
 
 # ✅Features
 
-- [x] Data registration in the database
-- [x] Listing Data in database
-- [x] Delete data in the database
-- [x] Route Creation
-- [x] Inconsistent data check
+- [x] Database import
+- [x] Identification and treatment of missing and inconsistent values
+- [x] Selection of the most relevant variables for score analysis
+- [x] Standardization and normalization of data
+- [x] Training of 2 distinct machine learning models
+- [x] Evaluation and comparison of accuracy metrics
+- [x] Presentation of results in a clear and concise manner
 
 # ✨Prerequisites
 
-## Install dependencies
-$ npm install 
+## Installing Python is required
 
-## Install prisma/client
-$ npm install @prisma/client
+## Install pandas
+$ pip install pandas 
 
-## Install fastfy
-$ npm i fastify
-
-## Run a application dev mode
-$ npm run dev
-
-## Run a prisma 
-$ npx prisma init
-
-## NOTE: It is highly recommended to be running the api and the front at the same time if your goal is to test in practice❗
+## Install plotly
+$ pip install plotly
 
 # 🛠Technologies
 
 The following tools were used in the construction of the project:
 
-- [React](https://pt-br.reactjs.org/)
-- [Insomnia](https://nodejs.org/en/)
+- [Python](https://pt-br.reactjs.org/](https://www.python.org/doc/))
+- [Jupyter Notebook](https://nodejs.org/en/](https://docs.jupyter.org/en/latest/install/notebook-classic.html))
 - [MongoDB](https://nodejs.org/en/](https://www.mongodb.com/))
-- [PrismaClient](https://nodejs.org/en/](https://www.mongodb.com/)](https://www.prisma.io/docs/orm/prisma-client))
-- [FastFy](https://nodejs.org/en/](https://www.mongodb.com/)](https://fastify.dev/docs/latest/))
-- [Node.js](https://nodejs.org/en/](https://insomnia.rest/))
-- [TS](https://vitejs.dev/](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)](https://www.typescriptlang.org/docs/))
+- [Pandas](https://nodejs.org/en/](https://www.mongodb.com/)](https://www.prisma.io/docs/orm/prisma-client)](https://pandas.pydata.org/docs/))
+- [Ploty](https://nodejs.org/en/](https://www.mongodb.com/)](https://fastify.dev/docs/latest/)](https://plotly.com/python-api-reference/))
+- [Decision Tree Template](https://scikit-learn.org/stable/modules/tree.html)
+- [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 # 📝Learn-More
-TypeScript:
-A statically typed language that compiles to JavaScript.
-Improves readability, prevents errors, and makes code more robust.
-Requests in Node.js:
+Árvore de Decisão (Decision Tree):
+- Divides the data space into regions based on questions about attributes.
+- Classifies new instances by following the branches of the tree.
+- Advantages: Easy to interpret, efficient to train.
+- Disadvantages: Prone to overfitting, can be sensitive to small changes in the data.
 
-Modules like http and axios facilitate HTTP requests.
-They allow communication with APIs and other services.
-Combining TypeScript and Node.js:
-
-TypeScript ensures that request data is handled correctly.
-Makes code more reliable and simplifies API development.
+Floresta Aleatória (Random Forest):
+- Combines multiple decision trees to improve generalization and reduce overfitting.
+- Trains each decision tree on a random subset of features and data.
+- Classifies new instances by majority vote among the trees.
+- Advantages: Usually more robust than individual decision trees, good performance in various tasks.
+- Disadvantages: Can be computationally expensive to train, interpretability is reduced compared to decision trees.
 
 # 🧑‍💻Author
 <a href="https://github.com/ArthurGuti/">
